@@ -1,0 +1,62 @@
+@import 'compass';
+@import 'compass/reset';
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+html{
+	font-size: 100%;
+	font-family: helvetica;
+	font-weight: 300;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+	margin-left: 10px;
+}
+
+h2{
+	font-size: 1.8em;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+header{
+	margin-top: 35px;
+	margin-left: 145px;
+	margin-bottom: 40px;
+	img{
+		width:43px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	h1{
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+.home{
+	width:900px;
+	margin-left: auto; margin-right: auto;
+	text-align: center;
+	margin-top: 100px;
+	.arnaud{
+		margin-top: 40px;
+		img{
+			@include border-radius(100%);
+			width:66px;
+			display: inline-block;
+			margin-right: 25px;
+			vertical-align: middle;
+		}
+		p{
+			display: inline-block;
+			font-size: 1em;
+		}
+	}
+}

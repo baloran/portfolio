@@ -1,0 +1,15 @@
+# Site settings
+title: Portfolio | Baloran
+email: contact@baloran.fr
+description: "Coming soon the real portfolio"
+baseurl: ""
+url: "http://portfolio.baloran.fr"
+twitter_username: bal0ran
+github_username:  baloran
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+gems:
+- jekyll-compass
